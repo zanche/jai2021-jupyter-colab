@@ -1,0 +1,102 @@
+[JAI]: https://csbc.ufsc.br/eventos/jai/
+
+# Ciência de Dados com Reprodutibilidade usando Jupyter
+
+
+> [40ª Jornada de Atualização em Informática – JAI 2021][JAI]
+>
+>📄 [Texto do curso](https://sol.sbc.org.br/livros/index.php/sbc/catalog/view/67/292/544-1)
+>
+>👨‍💻 [Slides do curso](slides_apresentação.pdf)
+
+
+[![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/opgabriel/jai2021-jupyter/main?urlpath=lab/tree/Index.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/opgabriel/jai2021-jupyter//blob/main/Index.ipynb)
+
+<details>
+  <summary>⏰ Horário</summary>
+  <br>
+  📅 20 de Julho
+  <br><br>
+  🕘 09:00 - 12:00  | 🕟 16:30 - 19:00
+  <br>
+</details>
+
+## Resumo
+
+Ciência de Dados tornou-se um tópico de pesquisa emergente na Ciência da Computação devido ao crescente interesse em extrair conhecimento de diferentes fontes de dados. Nesse contexto, o Jupyter Notebook vem se consolidando como uma das principais ferramentas utilizadas por cientistas de dados para realizar análises exploratórias de dados de forma rápida e direta, com alto potencial de reprodução de código. Dessa forma, o objetivo deste capítulo é apresentar o Jupyter com reprodutibilidade para a realização de projetos em Ciência de Dados. O conteúdo é organizado para estudantes e profissionais com alguma experiência em programação. Em particular, primeiro apresentamos o Jupyter e seu uso geral para desenvolver soluções para Ciência de Dados. Em seguida, apresentamos tópicos avançados do Jupyter e  abordamos maneiras de promover a ciência aberta. Para concluir, este JAI apresenta uma visão geral de Ciência de Dados com Jupyter Notebooks combinando conceitos e fundamentos teóricos com exemplos práticos e dados do mundo real.
+
+
+## Conteúdo
+1. [Introdução](https://docs.google.com/presentation/d/e/2PACX-1vQsPIAB1LIlRXSHM8TNRo5SAHAB7WKStfIOvmWxBBe8tR7sTZwbeDcrgiiDd346PwQnCJK_QbW9PRsi/pub?start=false&loop=false&delayms=3000)
+2. [Jupyter Básico](2.Basico/2.1.Estrutura.Geral.ipynb)
+3. [Preparação de Dados para Ciência](3.Preparacao/3.1.Importacao.Dados.ipynb)
+4. [Integração, Transformação, Redução](4.Transformacao/4.1.Integracao.ipynb)
+5. [Ciência de Dados](5.Ciencia.de.Dados/5.1.Ciencia.Dados.Basica.ipynb)
+6. [Jupyter Avançado](6.Jupyter.Avancado/6.1.IPython.ipynb)
+7. [Ciência Aberta](https://docs.google.com/presentation/d/e/2PACX-1vQtbj03kNvO7EEFc3cgDgu4gPpYoXlUTofMX0qFdmuybxuomo5WDSFkkjb5AHOgFmPFLVyI8AFplui8/pub?start=false&loop=false&delayms=3000)
+
+
+## Conjunto de Dados
+O conjunto de dados utilizado refere-se a sucesso na indústria da música, uma das mais dinâmicas e importantes no cenário do entretenimento mundial. Especificamente, utilizamos dados provenientes do [Spotify](https://developer.spotify.com/), o serviço de *streaming* de áudio mais popular do mundo, que reúne mais de 345 milhões de usuários em 178 países e territórios.
+
+1. **[Charts]**: Paradas musicais semanais do Spotify em 2020. (756 KB)
+2. **[Hits]**: *Features* das músicas que entraram nas paradas de sucesso. (266 KB) 
+3. **[Artists]**: *Features* dos artistas que entraram nas paradas de sucesso. (95.4 KB) 
+4. **[Artists (edited)]**: *Features* dos artistas que entraram nas paradas de sucesso (modificadas para fins didáticos). (96.3 KB) 
+
+[Charts]: https://github.com/opgabriel/jai2021-jupyter/raw/main/dataset/spotify_charts_complete.tsv
+[Hits]: https://github.com/opgabriel/jai2021-jupyter/raw/main/dataset/spotify_hits_dataset_complete.tsv
+[Artists]: https://github.com/opgabriel/jai2021-jupyter/raw/main/dataset/spotify_artists_info_complete.tsv
+[Artists (edited)]: https://github.com/opgabriel/jai2021-jupyter/raw/main/dataset/spotify_artists_info_edited.csv
+
+
+## Equipe
+
+* **João Felipe Pimentel** - Universidade Federal Fluminense (UFF)
+  * *jpimentel@ic.uff.br*
+* **Gabriel P. Oliveira** - Universidade Federal de Minas Gerais (UFMG)
+  * *gabrielpoliveira@dcc.ufmg.br*
+  * *[webpage][page1]*
+* **Mariana O. Silva** - Universidade Federal de Minas Gerais (UFMG)
+  * *mariana.santos@dcc.ufmg.br*
+  * *[webpage][page2]*
+* **Danilo B. Seufitelli** - Universidade Federal de Minas Gerais (UFMG)
+  * *daniloboechat@dcc.ufmg.br*
+  * *[webpage][page3]*
+* **Mirella M. Moro** - Universidade Federal de Minas Gerais (UFMG)
+  * *mirella@dcc.ufmg.br*
+  * *[webpage][page4]*
+
+[page1]: http://homepages.dcc.ufmg.br/~gabrielpoliveira/
+[page2]: http://homepages.dcc.ufmg.br/~mariana.santos/
+[page3]: http://homepages.dcc.ufmg.br/~daniloboechat/
+[page4]: http://homepages.dcc.ufmg.br/~mirella/
+
+
+## Referência
+
+  ```
+  @incollection{jai/PimentelOSSM21,
+    title = {Ciência de Dados com Reprodutibilidade usando Jupyter},
+    author = {João Felipe Pimentel and
+              Gabriel P. Oliveira and 
+              Mariana O. Silva and 
+              Danilo B. Seufitelli and 
+              Mirella M. Moro},
+    booktitle = {Jornada de Atualização em Informática 2021},
+    pages = {11--59},
+    doi = {10.5753/sbc.6757.3.1},
+    url = {https://doi.org/10.5753/sbc.6757.3.1},
+    publisher = {SBC},
+    year = {2021}
+  }
+  ``` 
+
+  
+## Agradecimentos
+
+> Este trabalho foi parcialmente financiado por [Conselho Nacional de Desenvolvimento Científico e Tecnológico - CNPq], [Fundação de Amparo à Pesquisa do Estado de Minas Gerais - FAPEMIG] e [Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - CAPES].
+
+[Conselho Nacional de Desenvolvimento Científico e Tecnológico - CNPq]: http://www.cnpq.br/
+[Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - CAPES]: https://www.capes.gov.br/
+[Fundação de Amparo à Pesquisa do Estado de Minas Gerais - FAPEMIG]: https://fapemig.br/
